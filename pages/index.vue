@@ -1,16 +1,15 @@
-<template>
-  <div>
-    <Header/>
-    <Slider/>
-    <About/>
-    <ServiceOne/>
-    <Challange/>
-    <Subscribe/>
-    <Project/>
-    <Testimonials/>
-    <Blog/>
-    <Footer/>
-  </div>
+<template lang="pug">
+.home
+  Header
+  Slider
+  About
+  ServiceOne
+  Challange
+  Subscribe
+  Project
+  Testimonials
+  Blog
+  Footer
 </template>
 
 <script>
