@@ -14,6 +14,16 @@
         title: "MyWeb - Vue Nuxt Data Science & AI Template "
       }
     },
+    created() {
+      this.pageDir();
+    },
+    // change page direction
+    async pageDir(): Promise<void> {
+      if (this.$i18n.locale === "ar") {
+        await document.querySelector("html")?.setAttribute("dir", "rtl");
+        await document.querySelector("html")?.setAttribute("lang", "ar");
+      }
+    },
     mounted () {
 
         /*--------------------------
@@ -23,6 +33,7 @@
       $('.video-play').magnificPopup({
         type: 'iframe'
       })
+
 
 
             /*--------------------------
