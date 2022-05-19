@@ -12,7 +12,7 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel:"shortcut icon", type:"image/x-icon", href:"img/logo/favicon.ico" },
+      { rel:"shortcut icon", type:"image/x-icon", href:"img/logo/logo.png" },
 
       { rel: "stylesheet", href: "/css/bootstrap.min.css"},
       { rel: "stylesheet", href: "/css/owl.carousel.css"},
